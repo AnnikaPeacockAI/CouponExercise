@@ -65,6 +65,3 @@ A brief report highlighting statistical summaries and visualizations. Code will 
 
 - Annika Peacock (https://github.com/AnnikaPeacockAI)
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
