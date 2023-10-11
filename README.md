@@ -42,11 +42,24 @@ A brief report highlighting statistical summaries and visualizations. Code will 
 - K-means to segment the user base into clusters
 - Silhouette score and Davies-Boudin index to evaluate clusters
 
-## How to Run the Project
+## Summary of Findings
 
-1. Clone the repository.
-2. Navigate to the project directory.
-3. Run `python analysis.py` to generate the report.
+### Key Insights
+1. **Acceptance Rates**: Acceptance rates for bar coupons vary based on frequency of bar visits and other lifestyle factors.
+2. **Significant Variables**: Variables like 'passanger', 'destination', and 'time' significantly influence coupon usage.
+3. **Model Complexity**: Different machine learning models yielded varying feature importances, highlighting the complexity of factors influencing coupon usage.
+
+### Methods
+- **Data Cleaning**: Handled missing values and outliers.
+- **Descriptive Statistics**: Utilized for initial insights.
+- **Machine Learning**: Employed Random Forest and Gradient Boosting models for predictive analytics.
+- **Clustering**: Utilized K-means for user segmentation.
+- **Evaluation Metrics**: Metrics like accuracy, precision, recall, and F1-score used for model evaluation.
+
+### Implications
+1. **Marketing Optimization**: Marketing strategies can be optimized by targeting frequent bar-goers and considering the 'passanger' variable.
+2. **Model Accuracy**: The model accuracy ranges from 59.6% to 58.3%, indicating room for improvement.
+3. **Feature Importance**: The variability in feature importance across models suggests the need for ensemble methods or more sophisticated models for accurate prediction.
 
 ## Contributors
 
