@@ -35,7 +35,7 @@ Data is sourced from the UCI Machine Learning repository and collected via an Am
 
 A brief report highlighting statistical summaries and visualizations. Code will be included for reproducibility.
 
-### Tools Used
+## Tools Used
 - Python for data manipulation and statistical analysis
 - MatPlotLib for data visualization
 - Random Forest, Recursive Feature Elimination and Gradient boosting to gauge feature importance
